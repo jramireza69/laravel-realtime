@@ -8,7 +8,7 @@
 
 $origin = 'git@github.com:jramireza69/laravel-realtime';
 $branch = isset($branch)? $branch : 'master';
-$app_dir = '/var/www/html';
+$app_dir = '/var/www/html/laravel-realtime';
 
 if (!isset($on)){
 	throw new Exception('La variable --on no esta definida');
