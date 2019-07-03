@@ -29,6 +29,7 @@ Vue.http.interceptors.push((request, next) => {
 });
 
 Vue.component('promotions', require('./components/PromotionsComponent'));
+Vue.component('products', require('./components/ProductsComponent'));
 
 
 const app = new Vue({

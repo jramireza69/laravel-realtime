@@ -9,9 +9,10 @@ export default {
     components: {
         Preloader
     },
-    mounted () {
+
+    mounted() {
         this.$http.get(this.url).then(data => {
-            this.prepareData(data);
-        });
+           this.prepareData(data);
+        })
     }
 }

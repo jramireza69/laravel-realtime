@@ -14,7 +14,7 @@
 
 <script>
     export default {
-        name: "Preloader",
+        name: "preloader",
         props: ['processing', 'size', 'center']
     }
 </script>
